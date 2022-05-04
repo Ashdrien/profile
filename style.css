@@ -1,0 +1,118 @@
+body {
+  background-color: aliceblue;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 25px;
+  line-height: 100px;
+  color: white;
+  text-align: center;
+  margin: 100px;
+  background-image: url("images/sea.jpg");
+	background-size: cover;
+}
+.card {
+  display: block;
+  background-color: rgba(100,149,237,0.7);
+    padding: 40px;
+    box-shadow: 5px 8px 15px -8px rgba(0,0,0,0.7);
+    border-radius: 4px;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+font-family: 'Oswald', sans-serif;
+line-height: 50px;
+font-weight: 400;
+padding: auto;
+color: aliceblue;
+}
+
+h1 {
+  font-size: 75px;
+  margin-top: 100px;
+  line-height: auto;
+}
+h2 {
+  font-size: 50px;
+  margin: 50px, auto;
+}
+h3 {
+  font-size: 30px;
+  margin: 50px, auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.button {
+  background-color: aliceblue;
+  color: #43A1D8;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.icons {
+  color: aliceblue;
+  margin: 30px;
+  padding: 0px;
+}
+
+.icons:hover{
+  color: black;
+}
+
+ul{
+  padding: 0;
+}
+
+ul > li {
+  list-style: none;
+  display: inline;
+  font-size: 10vw;
+}
+
+.authors {
+  text-decoration: underline;
+}
+
+#my-pic {
+  display: flex;
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+/* Headers
+Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
+Choose harmonious font-size and line-height for headers
+Hint: small headers are more elegant. If you check out any website (Medium, Airbnb, etc.), you’ll see that the font-size of their headers is quite small.
+Links
+Change the color & text-decoration of all the links
+Add hover effects to links using the pseudo-class a:hover. */
